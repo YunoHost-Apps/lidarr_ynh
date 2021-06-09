@@ -1,0 +1,7 @@
+SOURCE_URL=https://github.com/Lidarr/Lidarr/releases/download/v0.8.1.2135/Lidarr.master.0.8.1.2135.linux-core-x64.tar.gz
+SOURCE_SUM=471b40109e115210f903805e791ffac39511b76bb4a856edea31c15dd2cd6787
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_EXTRACT=true
+SOURCE_FILENAME=lidarr.tar.gz
