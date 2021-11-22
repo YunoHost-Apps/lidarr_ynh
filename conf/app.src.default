@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/Lidarr/Lidarr/releases/download/v__VERSION__/Lidarr.master.__VERSION__.linux-core-__ARCHITECTURE__.tar.gz
-SOURCE_SUM=__CHECKSUM__
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_EXTRACT=true
-SOURCE_FILENAME=lidarr.tar.gz
