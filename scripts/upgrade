@@ -81,7 +81,7 @@ then
 	get_architecture
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path" --source_id="architecture"
+	ynh_setup_source --dest_dir="$final_path" --source_id="$architecture"
 fi
 
 mkdir -p "$final_path/.data/logs"
