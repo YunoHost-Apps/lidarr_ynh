@@ -11,9 +11,9 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Un gestionnaire de discothèque pour utilisateurs de Usenet et BitTorrent.
+Gestionnaire de discothèque pour utilisateurs de Usenet et BitTorrent
 
-**Version incluse :** 0.8.1.2135~ynh1
+**Version incluse :** 0.8.1.2135~ynh2
 
 
 
