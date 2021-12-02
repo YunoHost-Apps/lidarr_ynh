@@ -100,6 +100,7 @@ then
 	mv $nginx_conf_path /etc/nginx/conf.d/$new_domain.d/$app.conf
 	# Store file checksum for the new config file location
 	ynh_store_file_checksum --file="/etc/nginx/conf.d/$new_domain.d/$app.conf"
+	domain="$new_domain"
 fi
 
 #=================================================
@@ -108,7 +109,7 @@ fi
 # UPDATE CONFIGURATION FILE
 #=================================================
 
-ynh_exec_warn_less 'ynh_add_config --template="../conf/config.xml" --destination="$final_path/.data/config.xml"'
+ynh_add_config --template="../conf/config.xml" --destination="$final_path/.data/config.xml"
 
 chmod 750 "$final_path/.data/config.xml"
 chmod o-rwx "$final_path/.data/config.xml"
