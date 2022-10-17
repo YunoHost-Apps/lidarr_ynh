@@ -4,8 +4,6 @@
 # COMMON VARIABLES
 #=================================================
 
-version="0.8.1.2135"
-
 # dependencies used by the app
 pkg_dependencies="curl mediainfo sqlite3"
 

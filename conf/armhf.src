@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/Lidarr/Lidarr/releases/download/v0.8.1.2135/Lidarr.master.0.8.1.2135.linux-core-arm.tar.gz
-SOURCE_SUM=5c6aa066a581b9922aa3b8e2606d7107a1339d4527a3e50c47a8ec25bdba155f
+SOURCE_URL=https://github.com/Lidarr/Lidarr/releases/download/v1.0.2.2592/Lidarr.master.1.0.2.2592.linux-core-arm.tar.gz
+SOURCE_SUM=dc59225da4490b40bea386d5ec5a305d43706447dbfea05f84505bc21b4425e5
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
