@@ -127,7 +127,7 @@ chown $app "$data_path/config.xml"
 #=================================================
 ynh_script_progression --message="Starting a systemd service..." --weight=1
 
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="Starting Web Server"
+ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="Application started"
 
 #=================================================
 # RELOAD NGINX
