@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="curl mediainfo sqlite3"
+#REMOVEME? pkg_dependencies="curl mediainfo sqlite3"
 
 #=================================================
 # PERSONAL HELPERS
