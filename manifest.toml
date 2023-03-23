@@ -19,7 +19,7 @@ code = "https://github.com/Lidarr/Lidarr"
 yunohost = ">= 11.1.15"
 architectures = "all"
 multi_instance = true
-ldap =  false
+ldap = false
 sso = false
 disk = "50M"
 ram.build = "50M"
@@ -56,7 +56,7 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
     api.main.url = "/api"
-    api.allowed="visitors"
+    api.allowed = "visitors"
     api.show_tile = false
     api.protected = true
 
