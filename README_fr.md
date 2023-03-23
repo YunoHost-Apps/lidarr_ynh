@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Gestionnaire de discothèque pour utilisateurs de Usenet et BitTorrent
 
-**Version incluse :** 1.0.2.2592~ynh1
+**Version incluse :** 1.0.2.2592~ynh2
 
 ## Captures d’écran
 
