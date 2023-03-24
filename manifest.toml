@@ -1,0 +1,66 @@
+packaging_format = 2
+
+id = "lidarr"
+name = "Lidarr"
+description.en = "Music collection manager for Usenet and BitTorrent users"
+description.fr = "Gestionnaire de discothèque pour utilisateurs de Usenet et BitTorrent"
+
+version = "1.0.2.2592~ynh2"
+
+maintainers = ["tituspijean"]
+
+[upstream]
+license = "GPL-3.0-only"
+website = "https://lidarr.audio"
+admindoc = "https://wiki.servarr.com/Lidarr"
+code = "https://github.com/Lidarr/Lidarr"
+
+[integration]
+yunohost = ">= 11.1.15"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/lidarr"
+
+    [install.admin]
+    type = "user"
+
+[resources]
+        [resources.sources.main]
+        arm64.url = "https://github.com/Lidarr/Lidarr/releases/download/v1.0.2.2592/Lidarr.master.1.0.2.2592.linux-core-arm64.tar.gz"
+        arm64.sha256 = "c870286712de285ea6951fc0bf4107d0b8765eab8cf55c7a86e3434c4b38c325"
+        amd64.url = "https://github.com/Lidarr/Lidarr/releases/download/v1.0.2.2592/Lidarr.master.1.0.2.2592.linux-core-x64.tar.gz"
+        amd64.sha256 = "8ae236e204fbfd1159f7173872c77ecd61333d23ecc6a618e45fbbf085918f14"
+        armhf.url = "https://github.com/Lidarr/Lidarr/releases/download/v1.0.2.2592/Lidarr.master.1.0.2.2592.linux-core-arm.tar.gz"
+        armhf.sha256 = "dc59225da4490b40bea386d5ec5a305d43706447dbfea05f84505bc21b4425e5"
+        i386.url = "https://github.com/Lidarr/Lidarr/releases/download/v1.0.2.2592/Lidarr.master.1.0.2.2592.linux-core-x86.tar.gz"
+        i386.sha256 = "4e0a3828f9479c9b99210536903660839f38e5dd2764514d69b9661e0d087d00"
+
+    [resources.ports]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+    api.main.url = "/api"
+    api.allowed = "visitors"
+    api.show_tile = false
+    api.protected = true
+
+    [resources.apt]
+    packages = "curl mediainfo sqlite3"
