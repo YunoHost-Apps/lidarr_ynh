@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Gestionnaire de discothèque pour utilisateurs de Usenet et BitTorrent
+Music collection manager for Usenet and BitTorrent users
 
 **Version incluse :** 1.0.2.2592~ynh2
 
