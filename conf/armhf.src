@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/Lidarr/Lidarr/releases/download/v1.0.2.2592/Lidarr.master.1.0.2.2592.linux-core-arm.tar.gz
-SOURCE_SUM=dc59225da4490b40bea386d5ec5a305d43706447dbfea05f84505bc21b4425e5
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_EXTRACT=true
-SOURCE_FILENAME=lidarr.tar.gz
