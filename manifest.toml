@@ -47,6 +47,12 @@ ram.runtime = "50M"
         i386.url = "https://github.com/Lidarr/Lidarr/releases/download/v1.0.2.2592/Lidarr.master.1.0.2.2592.linux-core-x86.tar.gz"
         i386.sha256 = "4e0a3828f9479c9b99210536903660839f38e5dd2764514d69b9661e0d087d00"
 
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset.amd64 = ".*linux-core-x64.tar.gz"
+        autoupdate.asset.i386 = ".*linux-core-x86.tar.gz"
+        autoupdate.asset.armhf = ".*linux-core-arm.tar.gz"
+        autoupdate.asset.arm64 = ".*linux-core-arm64.tar.gz"
+
     [resources.ports]
 
     [resources.system_user]
