@@ -36,27 +36,24 @@ then
 	ynh_setup_source --dest_dir="$install_dir" 
 fi
 
-chmod 750 "$install_dir"
 chmod -R o-rwx "$install_dir"
 chown -R $app: "$install_dir"
 
 #=================================================
-# NGINX CONFIGURATION
+# REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
-ynh_script_progression --message="Upgrading NGINX web server configuration..." --weight=1
+ynh_script_progression --message="Upgrading system configurations related to $app..." --weight=1
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
-#=================================================
-# SPECIFIC UPGRADE
-#=================================================
-# SETUP SYSTEMD
-#=================================================
-ynh_script_progression --message="Upgrading systemd configuration..." --weight=1
-
 # Create a dedicated systemd config
 ynh_add_systemd_config
+
+# Use logrotate to manage app-specific logfile(s)
+ynh_use_logrotate --non-append --logfile="$data_dir/logs"
+
+yunohost service add $app --description="Lidarr daemon" --log="$data_dir/logs/lidarr.txt"
 
 #=================================================
 # UPDATE A CONFIG FILE
@@ -67,23 +64,6 @@ ynh_add_config --template="../conf/config.xml" --destination="$data_dir/config.x
 
 chmod 400 "$data_dir/config.xml"
 chown $app:$app "$data_dir/config.xml"
-
-#=================================================
-# GENERIC FINALIZATION
-#=================================================
-# SETUP LOGROTATE
-#=================================================
-ynh_script_progression --message="Upgrading logrotate configuration..." --weight=1
-
-# Use logrotate to manage app-specific logfile(s)
-ynh_use_logrotate --non-append --logfile="$data_dir/logs"
-
-#=================================================
-# INTEGRATE SERVICE IN YUNOHOST
-#=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --weight=1
-
-yunohost service add $app --description="Lidarr daemon" --log="$data_dir/logs/lidarr.txt"
 
 #=================================================
 # START SYSTEMD SERVICE
