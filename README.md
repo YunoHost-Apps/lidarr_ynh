@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Music collection manager for Usenet and BitTorrent users
 
-**Shipped version:** 1.1.4.3027~ynh2
+**Shipped version:** 1.2.6.3313~ynh2
 
 ## Screenshots
 
