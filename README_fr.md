@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Music collection manager for Usenet and BitTorrent users
 
-**Version incluse :** 1.0.2.2592~ynh2
+**Version incluse :** 1.3.5.3530~ynh2
 
 ## Captures d’écran
 
