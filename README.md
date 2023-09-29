@@ -29,7 +29,6 @@ Music collection manager for Usenet and BitTorrent users
 * Official app website: <https://lidarr.audio>
 * Official admin documentation: <https://wiki.servarr.com/Lidarr>
 * Upstream app code repository: <https://github.com/Lidarr/Lidarr>
-* YunoHost documentation for this app: <https://yunohost.org/app_lidarr>
 * Report a bug: <https://github.com/YunoHost-Apps/lidarr_ynh/issues>
 
 ## Developer info
