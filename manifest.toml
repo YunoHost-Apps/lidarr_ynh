@@ -16,7 +16,7 @@ admindoc = "https://wiki.servarr.com/Lidarr"
 code = "https://github.com/Lidarr/Lidarr"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -32,6 +32,10 @@ ram.runtime = "50M"
     [install.path]
     type = "path"
     default = "/lidarr"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
 
     [install.admin]
     type = "user"
@@ -70,4 +74,4 @@ ram.runtime = "50M"
     api.protected = true
 
     [resources.apt]
-    packages = "curl mediainfo sqlite3"
+    packages = "curl, mediainfo, sqlite3"
