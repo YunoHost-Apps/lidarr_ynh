@@ -37,7 +37,7 @@ ram.runtime = "50M"
     type = "group"
     default = "admins"
     help.en = "Select which group should be able to access and configure the app. Do not select Visitors!"
-    help.en = "Sélectionnez quel group devrait pouvoir configurer et accéder à l'application. Ne choisissez pas les Visiteurs !"
+    help.fr = "Sélectionnez quel group devrait pouvoir configurer et accéder à l'application. Ne choisissez pas les Visiteurs !"
 
 [resources]
         [resources.sources.main]
