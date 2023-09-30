@@ -35,10 +35,9 @@ ram.runtime = "50M"
 
     [install.init_main_permission]
     type = "group"
-    default = "visitors"
-
-    [install.admin]
-    type = "user"
+    default = "admins"
+    help.en = "Select which group should be able to access and configure the app. Do not select Visitors!"
+    help.en = "Sélectionnez quel group devrait pouvoir configurer et accéder à l'application. Ne choisissez pas les Visiteurs !"
 
 [resources]
         [resources.sources.main]
