@@ -4,3 +4,4 @@ test_format = 1.0
 
     test_upgrade_from.cd2f91ab.name = "Upgrade from 0.8.1.2135"
     test_upgrade_from.cd2f91ab.args.admin = "package_checker"
+    test_upgrade_from.cd2f91ab.args.domain = "domain.tld"
