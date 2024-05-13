@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Shipped version:** 2.2.5.4141~ynh1
+**Shipped version:** 2.3.3.4204~ynh1
 
 ## Screenshots
 

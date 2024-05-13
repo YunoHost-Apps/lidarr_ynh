@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Lidarr
+# YunoHost 上的 Lidarr
 
 [![集成程度](https://dash.yunohost.org/integration/lidarr.svg)](https://dash.yunohost.org/appci/app/lidarr) ![工作状态](https://ci-apps.yunohost.org/ci/badges/lidarr.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/lidarr.maintain.svg)
 
@@ -18,7 +18,7 @@
 
 Music collection manager for Usenet and BitTorrent users
 
-**分发版本：** 2.2.5.4141~ynh1
+**分发版本：** 2.3.3.4204~ynh1
 
 ## 截图
 
