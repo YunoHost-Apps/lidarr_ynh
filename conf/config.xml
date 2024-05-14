@@ -9,5 +9,9 @@
   <AuthenticationMethod>External</AuthenticationMethod>
   <UpdateMechanism>BuiltIn</UpdateMechanism>
   <Branch>main</Branch>
-  <AuthenticationType>DisabledForLocalAddresses</AuthenticationType>
+  <InstanceName>__APP__</InstanceName>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
+  <LaunchBrowser>False</LaunchBrowser>
+  <SslCertPath></SslCertPath>
+  <SslCertPassword></SslCertPassword>
 </Config>
