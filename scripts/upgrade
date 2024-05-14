@@ -81,4 +81,9 @@ ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --l
 # END OF SCRIPT
 #=================================================
 
+# Let's wait a bit for migrations to happen
+if [ ${PACKAGE_CHECK_EXEC:-0} -eq 1 ]; then
+    sleep 5
+fi
+
 ynh_script_progression --message="Upgrade of $app completed" --last
