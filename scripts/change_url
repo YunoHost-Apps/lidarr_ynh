@@ -31,6 +31,11 @@ ynh_change_url_nginx_config
 # UPDATE CONFIGURATION FILE
 #=================================================
 
+# Add newline at end of file if required
+if [ -e "$data_dir/config.xml" ]; then
+    sed -i -e '$a\' "$data_dir/config.xml"
+fi
+
 ynh_add_config --template="../conf/config.xml" --destination="$data_dir/config.xml"
 
 chmod 750 "$data_dir/config.xml"
