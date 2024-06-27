@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Lidarr YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/lidarr.svg)](https://dash.yunohost.org/appci/app/lidarr) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/lidarr.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/lidarr.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/lidarr.svg)](https://ci-apps.yunohost.org/ci/apps/lidarr/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/lidarr.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/lidarr.maintain.svg)
 
 [![Instalatu Lidarr YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=lidarr)
 

@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Lidarr pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/lidarr.svg)](https://dash.yunohost.org/appci/app/lidarr) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/lidarr.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/lidarr.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/lidarr.svg)](https://ci-apps.yunohost.org/ci/apps/lidarr/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/lidarr.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/lidarr.maintain.svg)
 
 [![Installer Lidarr avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=lidarr)
 
