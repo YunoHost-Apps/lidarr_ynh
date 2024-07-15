@@ -5,7 +5,7 @@ name = "Lidarr"
 description.en = "Music collection manager for Usenet and BitTorrent users"
 description.fr = "Gestionnaire de discothèque pour utilisateurs de Usenet et BitTorrent"
 
-version = "2.3.3.4204~ynh1"
+version = "2.4.3.4248~ynh1"
 
 maintainers = ["tituspijean"]
 
@@ -41,14 +41,14 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        arm64.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.3.3.4204/Lidarr.master.2.3.3.4204.linux-core-arm64.tar.gz"
-        arm64.sha256 = "8925d7c7cf48ecf8f69c0b9aa47c09b486e58fe4c3addfe4f4e8812bc404c528"
-        amd64.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.3.3.4204/Lidarr.master.2.3.3.4204.linux-core-x64.tar.gz"
-        amd64.sha256 = "ba55a0f41843aff445138b1f5c67fe8bd5b42a93982a3b64e3da81788c08f5d5"
-        armhf.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.3.3.4204/Lidarr.master.2.3.3.4204.linux-core-arm.tar.gz"
-        armhf.sha256 = "9e5b0b44827f564e7e9affb8e6b7f933ed1fec4aed58ff8ab9a1b25352546fbb"
-        i386.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.3.3.4204/Lidarr.master.2.3.3.4204.linux-core-x86.tar.gz"
-        i386.sha256 = "611dbfdb0c737b33a875ee66aab67f5026a3cf8edeb9721c849f1a7d7dc6c5a4"
+        arm64.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.4.3.4248/Lidarr.master.2.4.3.4248.linux-core-arm64.tar.gz"
+        arm64.sha256 = "593c5f712debbde6c9e94e6539948f84823845410cef87f4d5f5688b5ef0920d"
+        amd64.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.4.3.4248/Lidarr.master.2.4.3.4248.linux-core-x64.tar.gz"
+        amd64.sha256 = "29bd3176f7a3d3e84a456225ef9aac9ba83d5ac91505107c16a6704764f76285"
+        armhf.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.4.3.4248/Lidarr.master.2.4.3.4248.linux-core-arm.tar.gz"
+        armhf.sha256 = "000ceebb307b3613d91d4595988f3c8c8a9df43161d006307e9d716ad81cbcde"
+        i386.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.4.3.4248/Lidarr.master.2.4.3.4248.linux-core-x86.tar.gz"
+        i386.sha256 = "7ffde2bdd3b019dd8b381244a23f7f6415630685fac2b1c14e055fca5d7672dc"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = ".*linux-core-x64.tar.gz"

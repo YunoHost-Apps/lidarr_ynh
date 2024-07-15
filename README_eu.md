@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Paketatutako bertsioa:** 2.3.3.4204~ynh1
+**Paketatutako bertsioa:** 2.4.3.4248~ynh1
 
 ## Pantaila-argazkiak
 
