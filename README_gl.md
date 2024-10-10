@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Versión proporcionada:** 2.5.3.4341~ynh1
+**Versión proporcionada:** 2.6.4.4402~ynh1
 
 ## Capturas de pantalla
 

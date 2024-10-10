@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Versión actual:** 2.5.3.4341~ynh1
+**Versión actual:** 2.6.4.4402~ynh1
 
 ## Capturas
 
@@ -34,7 +34,7 @@ Music collection manager for Usenet and BitTorrent users
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/lidarr_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/lidarr_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
