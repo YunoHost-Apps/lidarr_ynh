@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Lidarr untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/lidarr.svg)](https://ci-apps.yunohost.org/ci/apps/lidarr/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/lidarr.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/lidarr.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/lidarr)](https://ci-apps.yunohost.org/ci/apps/lidarr/)
+![Status kerja](https://apps.yunohost.org/badge/state/lidarr)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/lidarr)
 
 [![Pasang Lidarr dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=lidarr)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Versi terkirim:** 2.7.1.4417~ynh1
+**Versi terkirim:** 2.8.2.4493~ynh1
 
 ## Tangkapan Layar
 
