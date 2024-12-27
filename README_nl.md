@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Lidarr voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/lidarr.svg)](https://ci-apps.yunohost.org/ci/apps/lidarr/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/lidarr.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/lidarr.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/lidarr)](https://ci-apps.yunohost.org/ci/apps/lidarr/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/lidarr)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/lidarr)
 
 [![Lidarr met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=lidarr)
 
@@ -18,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Geleverde versie:** 2.7.1.4417~ynh1
+**Geleverde versie:** 2.8.2.4493~ynh1
 
 ## Schermafdrukken
 

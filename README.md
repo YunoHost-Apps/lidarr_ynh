@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Lidarr for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/lidarr.svg)](https://ci-apps.yunohost.org/ci/apps/lidarr/) ![Working status](https://ci-apps.yunohost.org/ci/badges/lidarr.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/lidarr.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/lidarr)](https://ci-apps.yunohost.org/ci/apps/lidarr/)
+![Working status](https://apps.yunohost.org/badge/state/lidarr)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/lidarr)
 
 [![Install Lidarr with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=lidarr)
 
@@ -18,7 +20,7 @@ It shall NOT be edited by hand.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Shipped version:** 2.7.1.4417~ynh1
+**Shipped version:** 2.8.2.4493~ynh1
 
 ## Screenshots
 
