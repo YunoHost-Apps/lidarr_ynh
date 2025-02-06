@@ -20,7 +20,7 @@
 
 Music collection manager for Usenet and BitTorrent users
 
-**Поставляемая версия:** 2.8.2.4493~ynh1
+**Поставляемая версия:** 2.9.6.4552~ynh1
 
 ## Снимки экрана
 
