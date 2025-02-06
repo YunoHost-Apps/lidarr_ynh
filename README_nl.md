@@ -20,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Geleverde versie:** 2.8.2.4493~ynh1
+**Geleverde versie:** 2.9.6.4552~ynh1
 
 ## Schermafdrukken
 
