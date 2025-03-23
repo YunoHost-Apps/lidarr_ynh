@@ -20,7 +20,7 @@ It shall NOT be edited by hand.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Shipped version:** 2.9.6.4552~ynh1
+**Shipped version:** 2.10.3.4602~ynh1
 
 ## Screenshots
 

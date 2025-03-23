@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Versi terkirim:** 2.9.6.4552~ynh1
+**Versi terkirim:** 2.10.3.4602~ynh1
 
 ## Tangkapan Layar
 

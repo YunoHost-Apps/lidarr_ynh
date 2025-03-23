@@ -20,7 +20,7 @@ No se debe editar a mano.
 
 Music collection manager for Usenet and BitTorrent users
 
-**Versión actual:** 2.9.6.4552~ynh1
+**Versión actual:** 2.10.3.4602~ynh1
 
 ## Capturas
 

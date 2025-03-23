@@ -20,7 +20,7 @@
 
 Music collection manager for Usenet and BitTorrent users
 
-**分发版本：** 2.9.6.4552~ynh1
+**分发版本：** 2.10.3.4602~ynh1
 
 ## 截图
 
