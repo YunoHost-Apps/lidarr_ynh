@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Lidarr para Yunohost
+# Lidarr para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/lidarr)](https://ci-apps.yunohost.org/ci/apps/lidarr/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/lidarr)
