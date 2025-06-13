@@ -11,7 +11,7 @@ It shall NOT be edited by hand.
 Music collection manager for Usenet and BitTorrent users
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://lidarr.audio)
-[![Version: 2.11.2.4629~ynh1](https://img.shields.io/badge/Version-2.11.2.4629~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/lidarr/)
+[![Version: 2.12.4.4658~ynh1](https://img.shields.io/badge/Version-2.12.4.4658~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/lidarr/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/lidarr"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
