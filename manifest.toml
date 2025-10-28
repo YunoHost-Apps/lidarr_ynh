@@ -5,7 +5,7 @@ name = "Lidarr"
 description.en = "Music collection manager for Usenet and BitTorrent users"
 description.fr = "Gestionnaire de discothèque pour utilisateurs de Usenet et BitTorrent"
 
-version = "2.12.4.4658~ynh1"
+version = "2.14.5.4836~ynh1"
 
 maintainers = ["tituspijean"]
 
@@ -16,11 +16,14 @@ admindoc = "https://wiki.servarr.com/Lidarr"
 code = "https://github.com/Lidarr/Lidarr"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap = false
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -41,14 +44,14 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        arm64.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.12.4.4658/Lidarr.master.2.12.4.4658.linux-core-arm64.tar.gz"
-        arm64.sha256 = "f59bf460247b0af81c0c51985ee739e418459881f58a579df560de12fc003282"
-        amd64.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.12.4.4658/Lidarr.master.2.12.4.4658.linux-core-x64.tar.gz"
-        amd64.sha256 = "b6d6d08fa198b8a79d0c4745f2f519726734025b994baa4f0b918241352eece3"
-        armhf.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.12.4.4658/Lidarr.master.2.12.4.4658.linux-core-arm.tar.gz"
-        armhf.sha256 = "b09cb0d02c6d12b31bd04031bca62e8e6fff539f1e5de85cf83c5d377f3edd24"
-        i386.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.12.4.4658/Lidarr.master.2.12.4.4658.linux-core-x86.tar.gz"
-        i386.sha256 = "d4540c9764b84cbd9a6b2b5dcb406297e791f3cc9a723dda3f28dfb1db310213"
+        arm64.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.14.5.4836/Lidarr.master.2.14.5.4836.linux-core-arm64.tar.gz"
+        arm64.sha256 = "792e0c71c2a121224173af2586b6306c4495d0572ab4023f6f8a237d03bff66f"
+        amd64.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.14.5.4836/Lidarr.master.2.14.5.4836.linux-core-x64.tar.gz"
+        amd64.sha256 = "2de24179de99a36fabe9976005391c83edce468a21bc3a71dfb80e3a8ae0f706"
+        armhf.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.14.5.4836/Lidarr.master.2.14.5.4836.linux-core-arm.tar.gz"
+        armhf.sha256 = "363fbef3884b8bb45712a318e8dd2f395c8ff85d0b6ac5b26ecf996ff5ceeb0b"
+        i386.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.14.5.4836/Lidarr.master.2.14.5.4836.linux-core-x86.tar.gz"
+        i386.sha256 = "76d83e33b6ef9277e88eb48cce5161156b1cceff9c005cc8924b41226f75db92"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = ".*linux-core-x64.tar.gz"
