@@ -18,7 +18,7 @@ code = "https://github.com/Lidarr/Lidarr"
 [integration]
 yunohost = ">= 12.0.9"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "armhf", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -50,12 +50,12 @@ ram.runtime = "50M"
         amd64.sha256 = "2de24179de99a36fabe9976005391c83edce468a21bc3a71dfb80e3a8ae0f706"
         armhf.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.14.5.4836/Lidarr.master.2.14.5.4836.linux-core-arm.tar.gz"
         armhf.sha256 = "363fbef3884b8bb45712a318e8dd2f395c8ff85d0b6ac5b26ecf996ff5ceeb0b"
-        i386.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.14.5.4836/Lidarr.master.2.14.5.4836.linux-core-x86.tar.gz"
-        i386.sha256 = "76d83e33b6ef9277e88eb48cce5161156b1cceff9c005cc8924b41226f75db92"
+        #i386.url = "https://github.com/Lidarr/Lidarr/releases/download/v2.14.5.4836/Lidarr.master.2.14.5.4836.linux-core-x86.tar.gz"
+        #i386.sha256 = "76d83e33b6ef9277e88eb48cce5161156b1cceff9c005cc8924b41226f75db92"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = ".*linux-core-x64.tar.gz"
-        autoupdate.asset.i386 = ".*linux-core-x86.tar.gz"
+        #autoupdate.asset.i386 = ".*linux-core-x86.tar.gz"
         autoupdate.asset.armhf = ".*linux-core-arm.tar.gz"
         autoupdate.asset.arm64 = ".*linux-core-arm64.tar.gz"
 
